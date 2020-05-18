@@ -41,4 +41,4 @@ class LinkedList {
   }
 }
 
-module.exports = DoublyLinkedList;
+module.exports = LinkedList;
