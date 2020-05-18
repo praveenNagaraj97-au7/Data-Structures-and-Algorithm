@@ -17,6 +17,7 @@ class Stack {
   pop() {
     let removed = this.array[this.array.length - 1];
     this.array.length = Math.max(0, this.array.length - 1);
+    this.length--;
     return removed;
   }
   show() {
