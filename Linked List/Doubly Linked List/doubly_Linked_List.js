@@ -26,7 +26,7 @@ class DoublyLinkedList {
     return newNode;
   }
   pop() {
-    if (!this.tail) return undefined;
+    if (!this.head) return undefined;
     let current = this.tail;
     if (this.length === 1) {
       this.head = null;
